@@ -1,18 +1,25 @@
 const styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
   
-    heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    heading2: "font-poppins font-semibold xs:text-[40px] text-[30px] text-dimWhite xs:leading-[76.8px] leading-[66.8px] w-full",
+    heading3: "font-poppins font-semibold xs:text-[30px] text-[20px] text-black xs:leading-none leading-[40.8px] w-full",
+    heading4: "font-poppins font-semibold xs:text-[40px] text-[30px] text-orange xs:leading-[76.8px] leading-[40px] w-full",
     paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
+    paragraph2: "font-poppins font-semibold text-white text-[24px] ",
   
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
   
     paddingX: "sm:px-16 px-6",
-    paddingY: "sm:py-16 py-6",
+    paddingY: "sm:py-10 py-6",
     padding: "sm:px-16 px-6 sm:py-12 py-4",
+    paddingX2: "sm:px-10 px-6",
+    paddingY2: "sm:py-10 py-6",
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+    marginX2: "sm:mx-10 mx-6",
+    marginY2: "sm:my-10 my-6",
   };
   
   export const layout = {

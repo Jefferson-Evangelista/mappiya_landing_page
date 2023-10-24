@@ -33,6 +33,18 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+.text-gradient2{
+  background: linear-gradient(180deg,
+   #F31515 0%, 
+   rgba(190, 39, 77, 0.95) 21.87%, 
+   rgba(190, 39, 77, 0.95) 32.29%, 
+   rgba(79, 77, 194, 0.85) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
 
 .bg-blue-gradient {
   background: linear-gradient(
@@ -71,6 +83,16 @@
     #14101d 95.11%
   );
 }
+
+.bg-card-gradient {
+  background: linear-gradient(180deg, 
+  #FF8A00 14.86%, 
+  rgba(255, 255, 255, 0.00) 165.94%
+  );
+
+}
+
+
 
 .bg-discount-gradient {
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
