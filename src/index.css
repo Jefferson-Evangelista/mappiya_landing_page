@@ -12,10 +12,15 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  
 }
 
 * {
   scroll-behavior: smooth;
+}
+
+.text-red {
+  color: red;
 }
 
 .text-gradient {
@@ -33,6 +38,8 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+
+
 .text-gradient2{
   background: linear-gradient(180deg,
    #F31515 0%, 

@@ -38,6 +38,7 @@ import googlePlay from './googlePlay.png'
 import appStore from './appStore.png'
 import close from './close.svg'
 import menu from './menu.svg'
+import supermarket from './supermarket.jpg'
 
 
 export {
@@ -81,5 +82,6 @@ export {
     appStore,
     close,
     menu,
+    supermarket
     
 }

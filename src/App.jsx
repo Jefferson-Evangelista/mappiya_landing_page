@@ -3,11 +3,14 @@ import styles from './style'
 import { Navbar, Hero, Deliveries, Restaurants, Rates, Location, CTA, Footer } from './components';
 
 const App = () => (
-  <div className='bg-white w-full overflow-hidden'>
-    <div className={``}>
+  <div className='bg-white container max-w-full overflow-hidden'>
+    <div className={`${styles.marginX}`}>
       <Navbar/>
     </div>
-    <Hero />
+    <div className={`${styles.marginX} ${styles.marginY} `}>
+      <Hero />
+    </div>
+
     <div className={`${styles.marginX} ${styles.marginY} `}>
       <Deliveries />
     </div>
