@@ -3,7 +3,7 @@ const styles = {
   
     heading2: "font-poppins font-semibold xs:text-[40px] text-[30px] text-dimWhite xs:leading-[76.8px] leading-[66.8px] w-full",
     heading3: "font-poppins font-semibold xs:text-[30px] text-[20px] text-black xs:leading-none leading-[40.8px] w-full",
-    heading4: "font-poppins font-semibold xs:text-[40px] text-[30px] text-orange xs:leading-[76.8px] leading-[40px] w-full",
+    heading4: "font-poppins font-semibold xs:text-[40px] text-[30px] text-back xs:leading-[76.8px] leading-[40px] w-full",
     paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
     paragraph2: "font-poppins font-semibold text-white text-[24px] ",
   

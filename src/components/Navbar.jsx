@@ -7,9 +7,9 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false)
 
     return(
-        <nav className={`fixed top-0 left-0 z-50 sm:px-16 px-6 container max-w-full h-[70px] flex flex-row py-3 bg-white`}>
+        <nav className={`fixed top-0 left-0 z-50 sm:px-16 px-6 container max-w-full h-[70px] flex flex-row py-3 bg-white `}>
 
-          <div className='flex flex-row justify-start items-center gap-x-2'>
+          <div className='flex flex-row justify-start items-center gap-x-2  sm:w-[50%] w-full'>
             <img src={ logo } alt="logo" className='w-[60px]'/>
             <h1 className='font-poppins font-bold text-[26px] text-black uppercase tracking-widest'>Mappiya</h1>
           
@@ -31,11 +31,11 @@ const Navbar = () => {
     
           
             
-          <div className='md:hidden flex container max-w-full'>
+          <div className='relative md:hidden flex container max-w-full'>
             <img 
             src={toggle ? close : menu}
             alt='menu' 
-            className={`w-[30px] h-[30px] border-2 bg-black absolute sm:right-30 right-11 top-5`}
+            className={`w-[30px] h-[30px] absolute right-0 top-1 `}
             onClick={() => setToggle((prev) => !prev)}
             
             />

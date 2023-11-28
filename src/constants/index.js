@@ -50,69 +50,75 @@ export const navLinks = [
 ]
 
 export const servicesImg = [
-    {
+    {   
+        id:'1',
         title:'food',
         image: food
     },
-    {
+    {   
+        id:'2',
         title:'documents',
         image: documents
     },
     {
+        id:'3',
         title:'light items',
         image: lightitems
     },
     {
+        id:'4',
         title:'delicate items',
         image: delicateitems
     },
     {
+        id:'5',
         title:'services',
         image: services
     }
 ]
     
 export const exploreLinks = [
-    {
+    {   id: 1,
         link:'Explore',
     },
-    {
+    {   id: 2,
         link:'Explore',
     },
-    {
+    {   id: 3,
         link:'Explore',
     },
 ]
 
 export const servicesLinks = [
-    {
+    {   id: 1,
         link:'Services',
     },
-    {
+    {   id: 2,
         link:'Services',
     },
-    {
+    {   id: 3,
         link:'Services',
     },
 ]
 
 export const contactLinks = [
     {   
+        id: 1, 
         title: 'address',
         icon: locationIcon,
         link: `Cluster 5 1g Campbridge Brgy. San Isidro,Cainta Rizal`,
     },
-    {   
+    {   id: 2,  
         title: 'message',
         icon: messageIcon,
         link:'sab_princes@yahoo.com',
     },
-    {
+    {   id: 3,
         title: 'phone',
         icon: phoneIcon,
         link:'00966508624264',
     },
-    {
+    {   id: 4,
         title: 'website',
         icon: wwwIcon,
         link:'http://www.mappiya.com/',

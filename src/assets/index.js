@@ -8,9 +8,9 @@ import services from './services.png'
 import rider from './rider.png'
 import location from './location.png'
 import locationIcon from './locationIcon.svg'
-import messageIcon from './messageIcon.png'
-import phoneIcon from './phoneIcon.png'
-import wwwIcon from './wwwIcon.png'
+import messageIcon from './messageIcon.svg'
+import phoneIcon from './phoneIcon.svg'
+import wwwIcon from './wwwIcon.svg'
 import jollibee from './jollibee.png'
 import ebenezar from './ebenezar.png'
 import bulaluhan from './bulaluhan.png'
@@ -39,6 +39,7 @@ import appStore from './appStore.png'
 import close from './close.svg'
 import menu from './menu.svg'
 import supermarket from './supermarket.jpg'
+import mappiyalogo from './mappiyalogo.png'
 
 
 export {
@@ -82,6 +83,7 @@ export {
     appStore,
     close,
     menu,
-    supermarket
+    supermarket,
+    mappiyalogo
     
 }

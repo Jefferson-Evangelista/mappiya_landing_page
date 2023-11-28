@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Deliveries from "./Deliveries";
+import About from "./About";
 import Restaurants from "./Restaurants";
 import Rates from "./Rates";
 import Location from "./Location";
@@ -11,6 +12,7 @@ export {
     Navbar,
     Hero,
     Deliveries,
+    About,
     Restaurants,
     Rates,
     Location,
